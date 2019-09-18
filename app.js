@@ -2,7 +2,7 @@ var http = require('http');
 var port = '3000'
 var requestListener = function (req, res) {
   res.writeHead(200);
-  res.end('Hello, World from Can Paul to you!', port);
+  res.end('Hello, World from Can Paul to you!');
 }
 
 var server = http.createServer(requestListener);
